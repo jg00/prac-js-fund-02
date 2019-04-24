@@ -1,3 +1,10 @@
-// Style property is an object itself with all available CSS styles
-document.body.children[0].style.backgroundColor = "red";
-console.log(window.document.body.children[0].style);
+console.log(document.body.children[0].children[0].style);
+console.log(document.body.firstChild); // blank space before <ul>
+console.log(document.body.firstElementChild); // <ul>
+console.log(document.body.lastElementChild);
+
+console.log(document.body.firstElementChild.firstElementChild);
+console.log(
+  document.body.firstElementChild.firstElementChild.nextElementSibling
+);
+console.log(document.body.firstElementChild.firstElementChild.parentElement);
