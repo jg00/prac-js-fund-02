@@ -5,10 +5,20 @@ Practice/review Javascript fundamentals - working with the DOM, Events, etc.
 ## Main Items
 
 - Work with the DOM
+
   - traverse the DOM
   - select DOM elements
   - create and insert element
   - remove element
+
+- Event listeners
+
+  - Event​Target​.add​Event​Listener()
+
+- Event Object and properties/methods
+  - event.target
+  - event.bubbles
+  - event.stopPropagation();
 
 ## Technologies
 
