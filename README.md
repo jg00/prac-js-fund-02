@@ -1,6 +1,6 @@
 ## Practice/Review Javascript fundamentals
 
-Practice/review Javascript fundamentals - working with the DOM, Events, etc.
+Practice/review Javascript fundamentals - working with Objects, the DOM, Events, AJAX, etc.
 
 ## Main Items
 
