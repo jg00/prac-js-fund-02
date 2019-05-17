@@ -24,10 +24,15 @@ Practice/review Javascript fundamentals - working with Objects, the DOM, Events,
 - AJAX/XMLHttpRequest
 
 - Objects, Prototypes
+
   - {}, new Object(), Object.create()
   - Object.prototype
   - Object.create()
   - Object.getPrototypeOf()
+
+- Constructor Functions
+  - Blueprint for creating instance objects
+  - Constructor Functions ship with their own prototype (like Person.prototype in the examples)
 
 ## Technologies
 
