@@ -10,14 +10,15 @@ let person = {
 // We can inherit methods which our objects might not implement on it's own.  But the prototype (you
 // can think of it as the "parent object") has.
 
-// When we use Object.create() we can supply as an argument the prototype we want to base it on.
-// Example Object.create(null) or Object.create(person) ie person is the protoype we assign.
+// When we use Object.create() we can supply as an argument the object (person) to use as the prototype. what will be the prototype we want to base it on.
+// Example Object.create(null) ie no prototype or Object.create(person) ie person is set as the prototype.
 
-// console.log(person.__proto__);
+// console.log(person.__proto__);  // do not use to get the prototype of an object.
 
 // console.log(person.toString());
 
 // Add greet method to the Object.prototype which is the 'root' prototype of all Javascript Objects by default.
+// Object.prototype itself is an object
 Object.prototype.greet = function() {
   console.log("hello there");
 };
