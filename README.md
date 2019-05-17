@@ -16,9 +16,18 @@ Practice/review Javascript fundamentals - working with Objects, the DOM, Events,
   - Event​Target​.add​Event​Listener()
 
 - Event Object and properties/methods
+
   - event.target
   - event.bubbles
   - event.stopPropagation();
+
+- AJAX/XMLHttpRequest
+
+- Objects, Prototypes
+  - {}, new Object(), Object.create()
+  - Object.prototype
+  - Object.create()
+  - Object.getPrototypeOf()
 
 ## Technologies
 
