@@ -31,8 +31,18 @@ Practice/review Javascript fundamentals - working with Objects, the DOM, Events,
   - Object.getPrototypeOf()
 
 - Constructor Functions
+
   - Blueprint for creating instance objects
   - Constructor Functions ship with their own prototype (like Person.prototype in the examples)
+
+- Handling 'this' keyword
+
+  - .bind()
+  - .call()
+  - .apply()
+
+- Object.defineProperty(obj,propName,configObj)
+  - Provide a way to define new properties directly on an object, or modifies an existing property on an object, and returns the object.
 
 ## Technologies
 
